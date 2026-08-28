@@ -8,7 +8,7 @@ description: >
   编辑式插画, 复古纸媒配图, or runs /collage-infographic.
 metadata:
   short-description: "Editorial collage infographic illustration"
-  author: gdfge
+  author: EllaMetahub
   version: "1.0.0"
 argument-hint: topic or viewpoint to illustrate
 license: MIT

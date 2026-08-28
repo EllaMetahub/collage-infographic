@@ -13,27 +13,27 @@ Typical uses: topic covers, blog headers, knowledge explainer art.
 /collage-infographic 帮我画一张关于「注意力」的专题头图
 ```
 
-### From GitHub after you push this repo
+### From GitHub
 
-Replace `YOUR_GITHUB_USER` with your username.
+Repo: [EllaMetahub/collage-infographic](https://github.com/EllaMetahub/collage-infographic)
 
 **Grok plugin**
 
 ```bash
-grok plugin marketplace add YOUR_GITHUB_USER/collage-infographic
+grok plugin marketplace add EllaMetahub/collage-infographic
 grok plugin install collage-infographic --trust
 ```
 
 Or install the repo directly:
 
 ```bash
-grok plugin install YOUR_GITHUB_USER/collage-infographic --trust
+grok plugin install EllaMetahub/collage-infographic --trust
 ```
 
 **Copy as a user skill**
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USER/collage-infographic.git
+git clone https://github.com/EllaMetahub/collage-infographic.git
 # Grok
 cp -r collage-infographic/skills/collage-infographic ~/.grok/skills/collage-infographic
 # Claude Code
@@ -45,7 +45,7 @@ cp -r collage-infographic/skills/collage-infographic ~/.cursor/skills/collage-in
 **npx skills** (if you use the Agent Skills CLI)
 
 ```bash
-npx skills add YOUR_GITHUB_USER/collage-infographic
+npx skills add EllaMetahub/collage-infographic
 ```
 
 ## Use
