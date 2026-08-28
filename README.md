@@ -87,12 +87,12 @@ Example:
 
 ```text
 用这个 skill：https://github.com/EllaMetahub/collage-infographic
-按里面锁定的风格提示词生图，标题：孙哥和他的前女友们
+按里面锁定的风格提示词生图，标题：
 ```
 
 Installed locally:
 
-- `/collage-infographic 标题：孙哥和他的前女友们`
+- `/collage-infographic 标题：`
 - Or just ask: 画一张拼贴感信息图 / editorial collage infographic of …
 
 The agent should:
