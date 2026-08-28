@@ -1,0 +1,24 @@
+{
+  "name": "collage-infographic",
+  "description": "Editorial collage infographic illustration skill",
+  "owner": {
+    "name": "gdfge"
+  },
+  "plugins": [
+    {
+      "name": "collage-infographic",
+      "description": "Generate 拼贴感信息图插画 — collage infographic illustration with vintage paper, flat vector, and light pop.",
+      "category": "media",
+      "source": {
+        "type": "local",
+        "path": "."
+      },
+      "keywords": [
+        "collage",
+        "infographic",
+        "illustration",
+        "editorial"
+      ]
+    }
+  ]
+}
