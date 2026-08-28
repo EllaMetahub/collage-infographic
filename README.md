@@ -67,6 +67,7 @@ plugin.json
 .grok-plugin/marketplace.json
 skills/collage-infographic/
   SKILL.md
+  references/style-prompt.md   # locked 生图提示词（原文）
   references/palettes.md
   references/recipes.md
   assets/style-anchor.jpg

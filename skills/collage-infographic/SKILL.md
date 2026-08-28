@@ -9,7 +9,7 @@ description: >
 metadata:
   short-description: "Editorial collage infographic illustration"
   author: EllaMetahub
-  version: "1.0.0"
+  version: "1.1.0"
 argument-hint: topic or viewpoint to illustrate
 license: MIT
 compatibility: Requires Grok Imagine image_gen and image_edit
@@ -23,6 +23,7 @@ explain one idea. Not a painted scene, not a photoreal photo, not a data chart.
 Follow the `imagine` skill for `image_gen` / `image_edit`, real-people references,
 and when to build exact text or data in code instead of generating it.
 
+Every generation: read `references/style-prompt.md` and paste that block into the image prompt **verbatim**. That file is the user's style prompt. Do not replace it with an English paraphrase.
 Load `references/palettes.md` only when picking a named palette other than Default.
 Load `references/recipes.md` only when matching a specific format (header, cover, explainer).
 
@@ -56,23 +57,14 @@ Light pop is a *seasoning*: Ben-day dots, one sticker-like shape, one exaggerate
 
 ## Prompt recipe
 
-Own the prompt unless the user supplied one verbatim. 2–5 sentences, prose, positive description.
+Two parts, in this order:
 
-Order: **subject (the idea) → collage pieces → paper field → style words → composition → palette.**
+1. **Style (locked)** — paste `references/style-prompt.md` verbatim. Never translate, compress, or swap it for an English style spine.
+2. **This request only** — one short prose add-on: the thesis, 3–7 named collage pieces, field, composition, palette name if not Default, and aspect ratio.
 
-Always include this style spine (adapt, do not drop):
+If the user supplies their own full image prompt, use that verbatim and still append the locked style block.
 
-> editorial collage infographic illustration; cut-out paper figures and objects pasted in overlapping layers; vintage magazine-scan grain and newsprint texture; flat vector color blocks with clean outlines; light pop graphic devices; limited editorial palette of cobalt blue, violet, tangerine, and warm beige
-
-Then fill:
-
-- **One thesis** — what viewpoint is being explained (one sentence).
-- **3–7 collage pieces** — hero subject + 1–2 explanatory devices + 1–2 paper textures (torn clipping, graph shard, tape, halftone).
-- **Field** — cream/beige newsprint, encyclopedia page, or editorial board. Not a sky-and-ground landscape.
-- **Composition** — stacked layers, off-center hero, one oversized element. Asymmetric editorial layout.
-- **Aspect ratio** — from the table below.
-
-Do not write keyword-tag soup. Do not list a long "no photoreal, no 3D, no…" block; state the collage/paper/flat look instead.
+Do not write keyword-tag soup.
 
 ### Aspect ratio
 

@@ -1,6 +1,6 @@
 # Prompt recipes
 
-Fill the bracketed parts. Keep 2–5 sentences. Always keep the style spine from SKILL.md.
+Start every prompt with `references/style-prompt.md` verbatim, then append one of these topic sentences. Do not rewrite the style block.
 
 ## Blog header / topic banner (`16:9`)
 
